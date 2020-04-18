@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+>
+<h:head/>
+<h:body>
+    <h1>Dino Zoo</h1>
+    <h2>Enclosures:</h2>
+    <ol>
+        <ui:repeat value="#{enclosures.allEnclosures}" var="enclosure">
+            <li><h:link value="#{enclosure.name}" outcome="dinosaurs?enclosureId=#{enclosure.id}" /></li>
+        </ui:repeat>
+    </ol>
+    <h:form>
+        <h:inputText value="#{enclosures.enclosureToCreate.name}" required="true" />
+        <h:commandButton value="Add" action="#{enclosures.createEnclosure}" />
+    </h:form>
+
+    <h2>Foods</h2>
+    <ol>
+        <ui:repeat value="#{foods.allFoods}" var="food">
+            <li>${food.name}</li>
+        </ui:repeat>
+    </ol>
+    <h:form>
+        <h:inputText value="#{foods.foodToCreate.name}" required="true" />
+        <h:commandButton value="Add" action="#{foods.createFood}" />
+    </h:form>
+
+    <h:link outcome="myBatis/teams" value="MyBatis implementation"/>
+</h:body>
+</html>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DinoZoo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1dc212d-649a-48b6-ae00-1c7e65f00dbe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aiJSShYABN17y1DNK6tZGctK08" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2905789" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lt.vu" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/DinoZoo/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DinoZoo:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="34467" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DinoZoo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="" />
+        <option name="USERNAME" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="34467" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="serverGroup" value="" />
+          <option name="transportHostId" />
+          <server-group />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="42141" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1dc212d-649a-48b6-ae00-1c7e65f00dbe" name="Default Changelist" comment="" />
+      <created>1587212480898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587212480898</updated>
+      <workItem from="1587212493375" duration="726000" />
+      <workItem from="1587213246483" duration="714000" />
+      <workItem from="1587213973469" duration="264000" />
+      <workItem from="1587214266348" duration="362000" />
+      <workItem from="1587214638244" duration="219000" />
+      <workItem from="1587214885568" duration="104000" />
+      <workItem from="1587215024961" duration="281000" />
+      <workItem from="1587215328806" duration="6261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="923" y="438" width="447" height="271" key="#Assign_Data_Sources" timestamp="1587217073139">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="923" y="438" width="447" height="271" key="#Assign_Data_Sources/0.0.2048.1104@0.0.2048.1104" timestamp="1587217073139" />
+    <state x="807" y="360" width="424" height="391" key="#BuildArtifactsBeforeRunChooser" timestamp="1587215721148">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="807" y="360" width="424" height="391" key="#BuildArtifactsBeforeRunChooser/0.0.2048.1104@0.0.2048.1104" timestamp="1587215721148" />
+    <state x="507" y="129" width="1024" height="852" key="#Project_Structure" timestamp="1587212930467">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="507" y="129" width="1024" height="852" key="#Project_Structure/0.0.2048.1104@0.0.2048.1104" timestamp="1587212930467" />
+    <state x="482" y="210" width="1175" height="799" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587215736474">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="482" y="210" width="1175" height="799" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1104@0.0.2048.1104" timestamp="1587215736474" />
+    <state x="832" y="257" width="374" height="596" key="#com.intellij.ide.util.MemberChooser" timestamp="1587217237003">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="832" y="257" width="374" height="596" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1104@0.0.2048.1104" timestamp="1587217237003" />
+    <state x="763" y="458" width="521" height="195" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587213177502">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="763" y="458" width="521" height="195" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2048.1104@0.0.2048.1104" timestamp="1587213177502" />
+    <state x="807" y="310" width="416" height="498" key="FileChooserDialogImpl" timestamp="1587214621519">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="807" y="310" width="416" height="498" key="FileChooserDialogImpl/0.0.2048.1104@0.0.2048.1104" timestamp="1587214621519" />
+    <state width="1634" height="239" key="GridCell.Tab.0.bottom" timestamp="1587220540502">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1634" height="239" key="GridCell.Tab.0.bottom/0.0.2048.1104@0.0.2048.1104" timestamp="1587220540502" />
+    <state width="1634" height="239" key="GridCell.Tab.0.center" timestamp="1587220540502">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1634" height="239" key="GridCell.Tab.0.center/0.0.2048.1104@0.0.2048.1104" timestamp="1587220540502" />
+    <state width="1634" height="239" key="GridCell.Tab.0.left" timestamp="1587220540501">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1634" height="239" key="GridCell.Tab.0.left/0.0.2048.1104@0.0.2048.1104" timestamp="1587220540501" />
+    <state width="1634" height="239" key="GridCell.Tab.0.right" timestamp="1587220540502">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state width="1634" height="239" key="GridCell.Tab.0.right/0.0.2048.1104@0.0.2048.1104" timestamp="1587220540502" />
+    <state x="796" y="312" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1587214385297">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="796" y="312" width="924" height="691" key="Maven.ArtifactSearchDialog/0.0.2048.1104@0.0.2048.1104" timestamp="1587214385297" />
+    <state x="505" y="187" width="1037" height="737" key="SettingsEditor" timestamp="1587215304599">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="505" y="187" width="1037" height="737" key="SettingsEditor/0.0.2048.1104@0.0.2048.1104" timestamp="1587215304599" />
+    <state x="610" y="125" width="875" height="825" key="find.popup" timestamp="1587220654721">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="610" y="125" width="875" height="825" key="find.popup/0.0.2048.1104@0.0.2048.1104" timestamp="1587220654721" />
+    <state x="688" y="251" width="672" height="677" key="run.anything.popup" timestamp="1587213333713">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="688" y="251" width="672" height="677" key="run.anything.popup/0.0.2048.1104@0.0.2048.1104" timestamp="1587213333713" />
+    <state x="687" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1587215297551">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="687" y="245" width="672" height="678" key="search.everywhere.popup/0.0.2048.1104@0.0.2048.1104" timestamp="1587215297551" />
+  </component>
+</project>

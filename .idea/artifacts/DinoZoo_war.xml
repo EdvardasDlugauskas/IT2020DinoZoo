@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DinoZoo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DinoZoo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="DinoZoo.war">
+      <element id="artifact" artifact-name="DinoZoo:war exploded" />
+    </root>
+  </artifact>
+</component>
