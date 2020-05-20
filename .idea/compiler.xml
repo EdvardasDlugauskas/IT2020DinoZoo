@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DinoZoo" target="1.8" />
+      <module name="DinoZoo" target="10" />
     </bytecodeTargetLevel>
   </component>
 </project>

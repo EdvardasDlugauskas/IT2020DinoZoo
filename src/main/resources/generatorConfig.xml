@@ -4,11 +4,11 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
-    <context id="DinoDB" targetRuntime="MyBatis3Simple">
+    <context id="PlayerDB" targetRuntime="MyBatis3Simple">
         <jdbcConnection driverClass="org.h2.Driver"
                         connectionURL="jdbc:h2:~/h2database/PlayerDB;AUTO_SERVER=TRUE"
-                        userId="as"
-                        password="as">
+                        userId="sa"
+                        password="sa">
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="lt.vu.mybatis.model" targetProject="MAVEN" />
@@ -16,14 +16,8 @@
         <sqlMapGenerator targetPackage="lt.vu.usecases.mybatis.xml" targetProject="MAVEN" />
         <javaClientGenerator type="XMLMAPPER" targetPackage="lt.vu.mybatis.dao" targetProject="MAVEN" />
 
-
-        <table schema="public" tableName="team">
+        <table schema="public" tableName="FOOD">
             <generatedKey column="id" identity="true" sqlStatement="JDBC" />
-            <ignoreColumn column="opt_lock_version" />
-        </table>
-        <table schema="public" tableName="player">
-            <generatedKey column="id" identity="true" sqlStatement="JDBC" />
-            <ignoreColumn column="opt_lock_version" />
         </table>
     </context>
 </generatorConfiguration>

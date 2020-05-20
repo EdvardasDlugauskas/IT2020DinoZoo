@@ -28,7 +28,7 @@ public class Dinosaur implements Serializable {
     @ManyToOne
     private Enclosure enclosure;
 
-    @ManyToMany(mappedBy = "dinosaurs")
+    @ManyToMany
     private List<Food> foods = new ArrayList<>();
 
     @Override

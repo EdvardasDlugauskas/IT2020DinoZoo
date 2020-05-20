@@ -9,6 +9,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.PersistenceUnit;
 import javax.persistence.SynchronizationType;
+import javax.transaction.TransactionScoped;
 
 @ApplicationScoped
 public class Resources {
@@ -20,6 +21,13 @@ public class Resources {
     @Default
     @RequestScoped
     private EntityManager createJTAEntityManager() {
+        return emf.createEntityManager(SynchronizationType.SYNCHRONIZED);
+    }
+
+    @Produces
+    @AsyncReady
+    @TransactionScoped
+    private EntityManager createJTATransactionalEM() {
         return emf.createEntityManager(SynchronizationType.SYNCHRONIZED);
     }
 

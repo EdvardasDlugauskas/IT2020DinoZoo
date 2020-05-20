@@ -1,0 +1,20 @@
+GET http://localhost:8080/DinoZoo/api/enclosures/3
+Content-Type: application/json
+
+{}
+
+###
+
+PUT http://localhost:8080/DinoZoo/api/enclosures
+Content-Type: application/json
+
+{
+  "dinosaurs": [],
+  "id": 2,
+  "name": "TestEnclosure-Renamed"
+}
+
+###
+
+DELETE http://localhost:8080/DinoZoo/api/enclosures/3
+Content-Type: application/json

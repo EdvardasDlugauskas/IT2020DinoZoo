@@ -24,8 +24,9 @@ public class Food {
     private Integer id;
 
     @Size(max = 100)
+    @Column(name = "NAME")
     private String name;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "foods")
     private List<Dinosaur> dinosaurs = new ArrayList<>();
 }

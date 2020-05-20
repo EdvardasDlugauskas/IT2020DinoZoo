@@ -29,6 +29,10 @@ public class Enclosure implements Serializable {
     @OneToMany(mappedBy = "enclosure")
     private List<Dinosaur> dinosaurs = new ArrayList<>();
 
+    public Enclosure(String name) {
+        this.name = name;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -43,4 +47,8 @@ public class Enclosure implements Serializable {
     public int hashCode() {
         return Objects.hash(name);
     }
+
+    @Version
+    @Column(name = "OPT_LOCK_VERSION")
+    private Integer version;
 }

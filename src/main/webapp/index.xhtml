@@ -7,6 +7,10 @@
 <h:head/>
 <h:body>
     <h1>Dino Zoo</h1>
+    <h2>Optimistick Lock Test</h2>
+    <h:form>
+        <h:commandButton value="Click me!" action="#{enclosures.OptimisticLockTest}"/>
+    </h:form>
     <h2>Enclosures:</h2>
     <ol>
         <ui:repeat value="#{enclosures.allEnclosures}" var="enclosure">
@@ -18,7 +22,7 @@
         <h:commandButton value="Add" action="#{enclosures.createEnclosure}" />
     </h:form>
 
-    <h2>Foods</h2>
+    <h2>Foods (MyBatis)</h2>
     <ol>
         <ui:repeat value="#{foods.allFoods}" var="food">
             <li>${food.name}</li>
@@ -29,6 +33,6 @@
         <h:commandButton value="Add" action="#{foods.createFood}" />
     </h:form>
 
-    <h:link outcome="myBatis/teams" value="MyBatis implementation"/>
+    <br/>
 </h:body>
 </html>
